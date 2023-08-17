@@ -10,7 +10,7 @@ class App extends StatelessComponent {
   @override
   Iterable<Component> build(BuildContext context) sync* {
     // renders a <p> element with 'Hello World' content
-    yield div(classes: 'mx-16 my-32 md:max-w-xl'.tw, [
+    yield div(classes: 'mx-16 my-64 md:max-w-xl'.tw, [
       h1(
         classes: 'mb-4 text-4xl font-bold'.tw,
         [text('Privacy policy')],
