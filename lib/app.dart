@@ -72,6 +72,12 @@ class App extends StatelessComponent {
       p(classes: 'pt-6 pb-64'.tw, [
         text('Last Updated: 12 August 2023'),
       ]),
+      a(
+        [
+          text('link'),
+        ],
+        href: 'https://ccwaterkloof.github.io/prayer/',
+      ),
     ]);
   }
 }
