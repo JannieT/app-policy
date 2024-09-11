@@ -1,3 +1,3 @@
-# policy
+# Privacy Policy
 
-A pure client-side app without ssr.
+Static site built with Astro and Tailwind CSS.

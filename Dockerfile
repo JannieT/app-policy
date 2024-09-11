@@ -2,7 +2,7 @@
 FROM nginx:alpine
 
 # Copy the static files to the Nginx document root directory
-COPY ./build/jaspr /usr/share/nginx/html
+COPY ./dist /usr/share/nginx/html
 
 # Expose port 80 to allow incoming traffic
 EXPOSE 80

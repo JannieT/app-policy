@@ -1,5 +1,5 @@
 .git
 .gitignore
 .vscode
-.dart_tool
-lib
+.astro
+src
